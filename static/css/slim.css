@@ -259,13 +259,13 @@ button,
 .container {
   *zoom: 1;
   width: auto;
-  max-width: 42em;
+  max-width: 47em;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 1em;
+  padding-right: 1em; }
   .container:before, .container:after {
     content: '';
     display: table; }
