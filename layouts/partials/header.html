@@ -1,19 +1,17 @@
 <div class="header">
   <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-  <p class="site-tagline">{{ .Site.Params.Subtitle }}</p>
+  <p class="site-tagline">Curriculum Developer at <a href="http://codeup.com">Codeup</a></p>
   <div class="nav">
     <a class="nav-btn" href="#">
+        Contact &nbsp;
       <span class="ci ci-burger"></span>
     </a>
     <ul class="nav-list">
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{end}} 
-	  <li class="spacer">&ac;</li>
-{{ with .Site.Params.GithubID }}
-      <li><a href="https://github.com/{{.}}">Github</a></li>{{ end }} {{ with .Site.Params.TwitterID }}
-      <li><a href="https://twitter.com/{{.}}">Twitter</a></li>{{ end }} {{ with .Site.Params.LinkedInID }}
-      <li><a href="http://linkedin.com/in/{{.}}">LinkedIn</a></li>{{ end }}
+      <li><a href="https://github.com/zgulde">Github</a></li> 
+      <li><a href="mailto:zachgulde@gmail.com">Email</a></li> 
     </ul>
   </div>
 </div>
