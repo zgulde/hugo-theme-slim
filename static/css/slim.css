@@ -185,13 +185,16 @@ button,
 .nav {
   position: absolute;
   top: 0;
-  left: -15px;
+  right: -15px;
   transform: translateX(-100%);
   text-align: right; }
 
+.nav-btn:focus,
+.nav-btn:hover{ text-decoration: none; }
 .nav-btn {
   display: inline-block;
-  line-height: 16px; }
+  line-height: 16px;
+  color: black;}
   .nav-btn.is-on .ci-burger {
     background: transparent; }
   .nav-btn.is-on .ci-burger::before {
