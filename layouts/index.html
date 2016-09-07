@@ -9,6 +9,13 @@
   <div class="container">
     {{ partial "header.html" . }}
     <div class="content">
+      <p>
+        I write and edit curriculum and teach web development to people looking
+        for a career change at <a href="http://codeup.com">codeup</a>. I blog
+        about various technical topics, from content aimed at beginner to
+        intermediate web developers (those going through codeup), to topics like
+        increasing your productivity and various linuxy things.
+      </p>
       <div class="posts">
         {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }} {{ range $paginator.Pages }}
         <div class="post">
